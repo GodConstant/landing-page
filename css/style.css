@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    margin:0;
+    padding:0;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .title {
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.hero-section{
+    display: flex;
+    text-align: left;
+    position: relative;
+    padding: 80px 100px;
+}
+
+.hero-section .left-side .hero-heading{
+    display: flex;
+    justify-content: flex-start;
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin:0;
+}
+
+.hero-section .left-side p {
+    font-size:18px;
+    color:#E5E7EB;
+    margin:0;
+}
+
+button {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    font-size: 16px;
+    padding:10px 20px;
+    border-radius:8px;
+    margin:0;
+}
+
+.hero-section img{
+    width:500px;
+    height:200px;
+    object-fit: none;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding:50px 150px;
+    min-width: 100%;
+}
+
+.section2 .section-title {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.section2 .image-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    gap:52px;
+}
+
+.section2 .image-section .services{
+    max-width: 100px;
+}
+
+.section2 .image-section .services img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.quote blockquote{
+    font-size: 36px;
+    color:#1f2937;
+    text-align: left;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: 900;
+    font-size: 32px;
+
+}
+
+
+.action{
+    background-color:whitesmoke;
+    padding: 30px;
+}
+
+.action .cta{
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 14px;
+    color: #E5E7EB;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.action .cta .hcta{
+    font-size:24px;
+    font-weight:900;
+    margin:0;
+}
+
+.action .cta .pcta{
+    margin:0;
+}
+
+.action .cta .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.action .cta button{
+    margin-left: 30px;
+    border-color: #E5E7EB ;
+}
+
+.footer{
+    position:flex;
+    flex:1;
+    color:#E5E7EB
+}
+
